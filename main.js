@@ -1,3 +1,4 @@
+console.log("this Site is updating")
 let visible = true;
 function clock(){
     const endDate = new Date("June 11 2025 00:00:00").getTime();
