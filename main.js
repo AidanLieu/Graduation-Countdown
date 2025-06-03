@@ -1,9 +1,9 @@
-console.log("this Site is updating")
 let visible = true;
 function clock(){
     const endDate = new Date("June 11 2025 00:00:00").getTime();
     const currentDate = new Date().getTime();
-    const ms = endDate - currentDate;
+    //const ms = endDate - currentDate;
+    const ms = 0
     var days = Math.floor(ms / (1000 * 60 * 60 * 24));
     var hours = Math.floor((ms % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((ms % (1000 * 60 * 60)) / (1000 * 60));
