@@ -1,6 +1,6 @@
 let visible = true;
 function clock(){
-    const endDate = new Date("June 11 2025 00:00:00").getTime();
+    const endDate = new Date("June 11 2025 14:00:00").getTime();
     const currentDate = new Date().getTime();
     const ms = endDate - currentDate;
     var days = Math.floor(ms / (1000 * 60 * 60 * 24));
